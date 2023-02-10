@@ -1,0 +1,16 @@
+dataset:
+  target_col: "target"
+  score_col: "score"
+  user_id_col: 'msno'
+  item_id_col: 'song_id'
+  num_columns: ["song_length", "bd"]
+  dt_columns: ["registration_init_time", "expiration_date"]
+  classes: [0, 1]
+validation:
+  items_cold_ratio: 0.05
+  users_cold_ratio: 0.1
+  test_ratio: 0.1
+  val_ratio: 0.1
+model:
+  name: "lfm_model.pkl"
+seed: 42

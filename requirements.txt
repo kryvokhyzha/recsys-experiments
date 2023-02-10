@@ -1,0 +1,11 @@
+py7zr==0.20.2
+matplotlib
+seaborn
+fastparquet
+pandas
+numpy
+scipy==1.10.*
+scikit-learn==1.2.*
+optuna==2.7.0
+catboost==1.0.6
+shap==0.41.0
